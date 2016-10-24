@@ -1,0 +1,36 @@
+*{margin:0;padding:0;font-family:"ºÚÌå";}
+#logo{width:1150px;height:56px;background:#343d46;border-bottom:1px solid #1c1b29;}
+#logo img{float:left;margin-left:184px;}
+#logo select{margin-left:12px;float:left;width:122px;height:32px;margin-top:16px;color:#04b141;background:#343d46;border:none;font-size: 20px;padding-left:6px;border-left: 1px solid #131d26;}
+#logo input{float:right;width:343px;height:24px;border:none;border-radius: 2px;margin-right:179px;margin-top:16px;background:#fff url("../images/tenser.gif") no-repeat 303px center;}
+#nav{width:1150px;height:28px;background:#05b141;border-top:1px solid #06bc45;border-bottom:1px solid #248e60;}
+#nav ul{margin-top:8px;margin-left:185px;}
+#nav ul li{list-style:none;float:left;width:86px;height:14px;font-size: 14px;line-height:12px;text-align:center;border-right:1px solid #029d42;}
+#nav ul li a{text-decoration:none;color:#fff;}
+#nav ul li img{margin-right:4px;}
+#middle{width:971px;height:1484px;padding-top:24px;padding-left:179px;background:#f0f0f0;}
+#middle .middle1{width:194px;height:305px;float:left;background:#fafafa;}
+#middle .middle1 ul li{list-style:none;line-height:40px;height:40px;width:194px;margin-left:40px;}
+#middle .middle1 ul li a{text-decoration: none;color:#000;font-size:14px;}
+#middle .middle2{width:579px;height:1448px;float:left;background:#fafafa;margin-left:3px;padding-top:12px;padding-left:16px;}
+#middle .middle2 ul li{width:520px;height:111px;border-bottom:1px solid #f0f0f0;list-style:none;padding-top:19px;padding-right: 43px;}
+#middle .middle2 ul li b{font-weight:normal;font-size: 12px;color:#adadab;}
+video{float:left;}
+#foot{width:1150px;height:406px;background:url("../images/tenfoot.jpg");}
+#foot1{width:703px;height:406px;float:left;}
+#foot2{width:446px;height:406px;float:left;}
+#foot #foot1 .footadv{font-size:14px;color:#fff;}
+#foot #foot1 ul{margin-left:203px;margin-top:20px;}
+#foot #foot1 li{list-style:none;}
+#foot #foot1 li a{text-decoration:none;color:#fff;}
+#foot #foot1 li a img{margin-bottom:30px;}
+#foot #foot2 form{margin-top:20px;}
+#foot #foot2 form table td{font-size: 14px;color:#fff;}
+#foot #foot2 form table td input{background-image:url("../images/foot3.jpg");width:96px;height:23px;border:none;border-radius: 3px; margin-bottom: 31px;}
+#foot #foot2 form table .foot22 input{background-image:url("../images/foot4.jpg");width:96px;height:23px;border:none;border-radius: 3px;margin-bottom: 31px;}
+#foot #foot2 form table .foot23{font-size: 12px;color:#97a6b9;}
+#foot #foot2 form table .foot23 input{width:13px;height:13px;margin-right:5px;}
+#foot #foot2 form table .foot24 input{background:#fff; margin-right: 10px;}
+#foot #foot2 form table .foot24 a{text-decoration: none;font-size: 10px;}
+#foot #foot2 form table .foot24 a:link{color:#0000ff;}
+#logo,#nav,#middle,#foot{margin:0 auto;}

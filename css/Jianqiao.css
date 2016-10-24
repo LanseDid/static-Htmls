@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+	html, body,p,ul,li, ol, dl, dd, dt,h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
+	fieldset, img { border:none; }
+	
+	address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+	ul, ol { list-style:none; } 
+	body { color:#333; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; 	background:#fff; overflow-x:hidden;}
+	a { color:#666; text-decoration:none; }
+	a:visited { color:#666; }
+	a:hover, a:active, a:focus { color:#f00; text-decoration:none; }
+	
+	
+	
+	
+	
+	.top{height:35px;background:#e4e4e4;}
+	.top1{width:1003px;height:35px;margin:0 auto;}
+	.top1 .active1{float:left;}
+	.top1 .active2{float:right;}
+	.top .top1 .active1{height:35px;}
+	.top .top1 .active1 li{float:left;}
+	.top .top1 .active1 li a{display:block;padding:0 8px;border-left:1px solid #fff;border-right:1px solid #d6d6d6;font-size:12px;margin-top:11px;color:#67686c;}
+	.top .top1 .active1 .no-borderleft a{border-left:none;}
+	.top .top1 .active1 .no-borderright a{border-right:none;}
+	.top .top1 .active2 li{float:left;}
+	.top .top1 .active2 li a{display:block;color:#67686c;padding:0 10px;margin-top:12px;font-size:12px;}
+	.top .top1 .active2 li .input-text{width:135px;height:20px;margin-top:6px;color:#cacacc;line-height:20px;padding-left:5px;font-size:12px;}
+	.top .top1 .active2 li .button{width:21px;height:18px;border:none;background:url("../images/Jbutton.jpg");}
+	
+	
+	
+	
+	.logo{height:98px;}
+	.logo1{width:1006px;height:98px;margin:0 auto;}
+	.logo1 .logo1-1{float:left;margin:20px 0 0 16px;}
+	.logo1 .logo1-2{float:right;margin:6px 30px 0 0;}
+	
+	.nav{height:44px;background:#d92b34;}
+	.nav ul{width:1003px;height:44px;background:#c8141f;margin:0 auto;}
+	.nav ul li{float:left;}
+	.nav ul li a{display:block;color:#fff;font-size:14px;line-height:44px;padding:0 20px;}
+
+	.banner{height:328px;background:#e6e6e6;}
+	.banner img{float:left;margin-left:129px;}
+	.banner ul{float:left;width:293px;height:315px;border-bottom:3px solid #c8141f;padding:10px 0 0 40px}
+	.banner ul li{width:250px;height:42px;border-bottom:1px dashed #d0d0d0;padding-top:12px;}
+	.banner ul li a{color:#000002;}
+	.banner .banner1 {float:right;margin:12px 40px 0 0;}
+
+	.middle{height:588px;}
+	.middle1{width:730px;height:588px;margin-left:130px;float:left;}
+	.middle1 dl{width:270px;height:196px;float:left;margin:40px 38px 0 0;}
+	.middle1 dl dt{padding-bottom:10px;border-bottom:1px solid #dfdfdf;margin-bottom:25px;}
+	.middle1 .middle1-1{width:422px;margin-right:0px;}
+	.middle1 .middle1-1 .middle1-1-3{margin-bottom:13px;height:60px;font-size:14px;}
+	.middle1 .middle1-1 .middle1-1-3 span{display:inline-block;width:60px;height:60px;background:#c8141f;vertical-align:top;float:left;text-align:center;line-height:40px;margin-right:16px;}
+	.middle1 .middle1-1 .middle1-1-3 span h2{color:#fff;}
+	.middle1 .middle1-1 .middle1-1-3 span b{display:block;color:#fff;font-size:12px;margin-top:-10px;}
+	.middle1 .middle1-1 .middle1-1-3 a{float:left;font-size:12px;width:330px;height:50px;line-height:20px;color:#6e6e6e;}
+	
+	.middle1 .middle1-2 dd a{float:left;display:block;width:216px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;color:#333333;line-height:22px;}
+	.middle1 .middle1-2 dd span{float:right;font-size:12px;color:#666664;}
+	.middle1 .middle1-1 .middle1-3 a{float:left;display:block;width:326px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:12px;color:#333333;line-height:22px;}
+	.middle1 .middle1-1 .middle1-3 span{float:right;font-size:12px;color:#666664;}
+	.middle1 .middle1-1-1{font-size:12px;text-align:center;color:#65657f;}
+	.middle1 .middle1-1-1 a{color:#65657f;}
+	
+	.middle2{width:273px;height:588px;float:left;}
+	.middle2 ul{width:240px;height:262px;background:url("../images/Jmiddle2.jpg") repeat-x left bottom;margin:20px 0 0 32px;padding-top:10px;}
+	.middle2 ul li{padding:6px 10px;}
+	.middle2 .middle2-1{border-bottom:1px solid #cbcbcb;background:none;}
+	.middle2 .middle2-1 li{float:left;}
+	.middle2 .middle2-1 li a{display:block;padding:10px 0;margin-right:20px;color:#878586;}
+	.middle2 .middle2-1 li a:hover{border-bottom:2px solid #c8141f;padding:9px 0;color:#c9141d;}
+	.middle2 .middle2-1 li input{width:216px;height:26px;border:1px solid #cccccc;}
+	.middle2 .middle2-1 .middle2-1-1 input{width:80px;height:22px;background:#f0f0f0;float:left;}
+	.middle2 .middle2-1 .middle2-1-1 a{font-size:12px;margin-left:50px;float:left;color:#343331;}
+	.middle2 .middle2-1 .middle2-1-1 a:hover{border:none;}
+	
+	.bnav{height:70px;background:#d4d4d4 url("../images/Jnavflag.jpg") repeat-x left bottom;}
+	.bnav ul{width:1003px;height:70px;margin:0 auto;}
+	.bnav ul li{float:left;}
+	.bnav ul li a{display:block;width:200px;height:25px;text-align:center;line-height:90px;color:#000;font-size:14px;}
+	.bnav ul li a span{display:none;width:200px;height:15px;background:url("../images/Jnav.jpg") no-repeat center top;}
+	.bnav ul li a:hover span{display:block;}
+	.bnav ul li a:hover{line-height:70px;}
+	
+	.foot{height:130px;background:#302728;}
+	.foot ul{width:903px;height:47px;margin:0 auto;padding-left:100px;
+		border-bottom: 1px solid #3b3233;margin-bottom:10px;}
+	.foot ul .foot1 a{border-left: none;}
+	.foot ul li{float: left;}
+	.foot ul li a{padding:0 10px;display: block;border-left: 1px solid  #d0cfcd;color:#d0cfcd;font-size:12px;margin-top:18px;}
+	.foot p{color:#939393;font-size:12px;text-align: center;line-height: 24px;}
+
+	.top,.logo,.banner,.middle,.nav,.foot{margin:0 auto;}

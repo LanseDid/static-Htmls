@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>精密仪器仪表</title>
+    <style type="text/css">
+	html, body,p,ul,li, ol, dl, dd, dt,h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
+	fieldset, img { border:none; }
+	
+	address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+	ul, ol { list-style:none; } 
+	body { color:#333; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; 	background:#fff; overflow-x:hidden;}
+	a { color:#666; text-decoration:none; }
+	a:visited { color:#666; }
+	a:hover, a:active, a:focus { color:#f00; text-decoration:none; }
+		
+		
+		
+		
+        #top{width:1076px;height:36px;background:#ecf0f1;padding-left:24px;padding-right:26px;font-size:12px;color:#8d8e90;line-height:36px;}
+		#top p{float:left;}
+		#top ul li{float:right;margin:0px 4px 0px;}
+		#top ul li a{color:#757678;}
+		
+        #logo{width:1126px;height:110px;background:#fff;}
+		#logo img{float:left;}
+		#logo p{float:right;margin-top:33px;}
+		#logo ul li{float:right;margin-top:30px;}
+		#logo ul li img{margin-left:44px;}
+		#logo ul li p{color:red;font-size:20px;}
+		#logo p span{color:red;font-size:20px;}
+		
+        #nav{width:1102px;height:50px;background:#3598db;padding-left:24px;}
+		#nav ul li{float:left;width:152px;text-align:center;line-height:50px;}
+		#nav ul li a{color:#fff;width:152px;height:50px;display:block;}
+		#nav ul li a:hover{background:#2a80b9;}
+		
+        #banner{width:1126px;height:400px;}
+		
+		#message{width:1102px;height:78px;padding:30px 0 0 0;}
+		#message .message1{width:1122px;height:30px;background:url("images/Ibi.jpg") no-repeat 20px center;border:1px solid #d6d6d6;padding-top:18px;}
+		#message .message1 p{font-size:12px;color:#f00;margin-left:46px;float:left;}
+		#message .message1 ul li{float:left;background:url("images/Ijiantou.jpg") no-repeat left center;padding-left:16px;margin-left:10px;}
+		#message .message1 ul li a{color:#635c63;font-size:12px;}
+		
+		#news{width:1126px;height:400px;background:#f8f8f8;padding-left:24px;padding-top:34px;}
+		#news .news1{width:350px;height:400px;float:left;}
+		#news p,#product p,#video p{float:left;font-size:14px;color:#acacac;}
+		#news h5,#product h5,#video h5{float:left;border-bottom:3px solid #3497d8;font-size:14px;height:28px;borer-bottom:3px solid #3597de;}
+		#news .news2{width:346px;height:400px;float:left;}
+		#news .news2 input{float:right;width:88px;height:32px;margin-right:20px;}
+		#news .news2 .news2-1{width:307px;height:280px;background:#fff;margin-top:54px;padding:15px 18px 0px 21px;border:1px solid #f1f1f1;}
+		#news .news2 .news2-1 ul li{line-height:40px;border-bottom:1px dashed #cccccc;font-size:12px;}
+		#news .news2 .news2-1 ul li span{float:right;color:#909090;}
+		#news .news2 .news2-1 ul li a{color:#606060;}
+		#news .news3{width:408px;height:400px;float:left;padding-left:20px;}
+		#news .news3 .news3-1{width:386px;height:250px;background:#47a1df;margin-top:54px;background:url("images/Iabout.jpg") no-repeat left center;padding-top:37px;}
+		#news .news3 .news3-1 .news3-1-1{width:284px;height:168px;background:#47a1df;margin:0px 0px 0px 81px;font-size:12px;color:#fff;padding:20px 0px 0px 20px;line-height:26px;}
+		#news .news3 .news3-1 .news3-1-1 input{width:84px;height:26px;color:#fff;background:none;border:1px solid #fff;}
+		#news .news3 .news3-1 .news3-1-1 p{color:#fff;font-size:14px;}
+		#news .news1 img{margin:22px 20px 0px 0px;}
+		
+		#product{width:1102px;height:326px;padding:34px 0 0 24px;}
+		#product ul li{float:left;margin-right:30px;width:187px;border:1px solid #e1e1e1;}
+		#product ul li a{text-decoration:none;}
+		
+		#video{width:1126px;height:354px;background:#f8f8f8;padding-left:24px;padding-top:34px;}		
+		#video .news1{width:350px;height:400px;float:left;}
+		#video .news1 video{margin:22px 20px 0px 0px;}
+		#video .news2{width:346px;height:400px;float:left;}
+		#video .news2 input{float:right;width:88px;height:32px;margin-right:20px;}
+		#video .news2 .news2-1{width:307px;height:280px;background:#fff;margin-top:54px;padding:15px 18px 0px 21px;border:1px solid #f1f1f1;}
+		#video .news2 .news2-1 ul li{line-height:40px;border-bottom:1px dashed #cccccc;font-size:12px;}
+		#video .news2 .news2-1 ul li span{float:right;color:#909090;}
+		#video .news2 .news2-1 ul li a{color:#606060;}
+		#video .news3{width:408px;height:400px;float:left;padding-left:20px;}
+		#video .news3 .news3-1{width:386px;height:250px;background:#47a1df;margin-top:54px;background:#fff url("images/Iproduct2.jpg") no-repeat right center;padding-top:37px;}
+		#video .news3 .news3-1 ul li a{display:block;width:152px;padding:20px 34px;border-bottom:1px solid #f0f0f0;background:url("images/Iphone2.jpg") no-repeat left center;}
+		#video .news3 .news3-1 img{vertical-align:middle;}
+		
+		#flink{width:1102px;height:103px;padding:30px 0 0 24px;}
+		#flink ul li{float:left;}
+		#flink ul{width:1000px;height:44px;border:1px solid #d9d9d9;border-radius:10px;padding-left:80px;padding-top:30px;background:url("images/Iflag.jpg") no-repeat left center;}
+		#flink ul li a{display:block;padding-right:30px;color:#5d5d5d;}
+		
+		#bnav{width:1126px;height:50px;background:#34495e;}
+		#bnav ul{margin-left:90px;}
+		#bnav ul .active a{background:none;}
+		#bnav ul li{float:left;}
+		#bnav ul li a{padding:0 42px;display:block;height:50px;line-height:50px;color:#fff;font-size:12px;background:url("images/Inavborder.jpg") no-repeat left center;}
+		#foot{width:996px;height:59px;background:#2d3e50;padding-left:130px;padding-top:24px;color:#fff;}
+		#top,#logo,#nav,#banner,#message,#news,#product,#video,#flink,#bnav,#foot{margin:0px auto;}
+    </style>
+</head>
+<body>
+    <div id="top">
+    	<p>您好，欢迎光临某某精密仪器仪表网站</p>
+        <ul>
+        	<li><a href="#">加入收藏</a></li>
+            <li>|</li>
+            <li><a href="#">设为首页</a></li>
+        </ul>
+    </div>
+    <div id="logo">
+    	<img src="images/Ilogo.jpg">
+        <p>咨询热线<br><span>400-000-0000<span></p>
+        <ul>
+        	<li><a href="#"><img src="images/Iphone.jpg"></a>
+			</li>
+            <li><a href="#"><img src="images/Isina.jpg"></a></li>
+            <li><a href="#"><img src="images/Iqq.jpg"></a></li>
+        </ul>
+    </div>
+    <div id="nav">
+    	<ul>
+        	<li><a href="#">网站首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">产品中心</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li><a href="#">在线留言</a></li>
+            <li><a href="#">帮助文档</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+    <div id="banner"><img src="images/Ibanner.jpg"></div>
+    <div id="message">
+    	<div class="message1">
+        	<p>网站公告:</p>
+            <ul>
+            	<li><a href="#">浙江仪器仪表业的现状和竞争力</a></li>
+                <li><a href="#">浙江仪器仪表业的现状和竞争力</a></li>
+                <li><a href="#">浙江仪器仪表业的现状和竞争力</a></li>
+                <li><a href="#">浙江仪器仪表业的现状和竞争力</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="news">
+    	<div class="news1">
+        	<h5>快捷导航 </h5> <p>SHORTCUT</p>
+            <img src="images/Inews.jpg">
+        </div>
+        <div class="news2">
+        	<h5>新闻动态</h5> <p>NEWS CENTER</p>
+             <input type="button" value="MORE+">
+             <div class="news2-1">
+             	<ul>
+                	<li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                </ul>
+             </div>
+        </div>
+        <div class="news3">
+        	<h5>关于我们 </h5> <p>ABOUT US</p>
+            <div class="news3-1">
+            	<div class="news3-1-1">
+                	<p>某某精密仪器仪表有限公司</p><br>
+
+                    中国仪器仪表公司前身是****仪器技术研究所
+                    <input type="button" value="查看详情">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div id="product">
+    	<h5>关于我们 </h5> <p>ABOUT US</p>
+        <ul>
+        	<li style="clear:both;"><a href="#"><img src="images/Iproduct.jpg"></a></li>
+            <li><a href="#"><img src="images/Iproduct.jpg"></a></li>
+            <li><a href="#"><img src="images/Iproduct.jpg"></a></li>
+            <li><a href="#"><img src="images/Iproduct.jpg"></a></li>
+            <li><a href="#"><img src="images/Iproduct.jpg"></a></li>
+        </ul>
+    </div>
+    <div id="video">
+    	<div class="news1">
+        	<h5>视频展示 </h5> <p>VIDEOS</p>
+            <video width="307px" height="281px" controls>
+                <source src="video/-d-v-2014-12-04-2014-1204CVNC123109002280015222.mp4" type="video/mp4" />
+                <source src="video/-d-v-2014-12-04-2014-1204CVNC123109002280015222.ogg" type="video/ogg" />
+                <source src="video/-d-v-2014-12-04-2014-1204CVNC123109002280015222.webm" type="video/webm" />
+                <object data="video/-d-v-2014-12-04-2014-1204CVNC123109002280015222.mp4" width="307" height="281">
+                    <embed src="video/-d-v-2014-12-04-2014-1204CVNC123109002280015222.swf" width="307" height="281" />
+                </object>
+            </video>
+        </div>
+        <div class="news2">
+        	<h5>帮助文档</h5> <p>HELP DOCUMENT</p>
+             <input type="button" value="MORE+">
+             <div class="news2-1">
+             	<ul>
+                	<li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                    <li><a href="#">XX集团-XXX学院高层管理者培训开课</a><span>2015-05-09</span></li>
+                </ul>
+             </div>
+        </div>
+        <div class="news3">
+        	<h5>联系方式 </h5> <p>CONTUCTS US</p>
+            <div class="news3-1">
+            	<ul>
+                	<li><a href="#">咨询热线<br>400-000-0000</a></li>
+                    <li><a href="#">咨询热线<br>400-000-0000</a></li>
+                    <li><a href="#">咨询热线<br>400-000-0000</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+    <div id="flink">
+    	<ul>
+        	<li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">百度</a></li>
+        </ul>
+    </div>
+    <div id="bnav">
+    	<ul>
+        	<li class="active"><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">网站首页</a></li>
+        </ul>
+    </div>
+    <div id="foot">
+    	<p>COPYRIGHT @ 2009-2011 WWW.YOURNAME.COM,ALL RIGHTS RESERVED</p>
+        <P>版权所有 @ 您的网站名称 未经许可 严禁复制</P>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;font-family:"黑体";}
+	#logo{width:1170px;height:90px;background:#f5f5f5;}
+	#logo img{float:left;}
+	#logo .logo{float:right;}
+	#banner{width:1170px;height:377px;background:url("../images/lubanner.jpg");padding-top:15px;}
+	#banner .banner2 b{color:#ff9a38;font-size:20px;}
+	#banner .banner2{width:346px;height:333px;background:#fff;margin-left:809px;text-align:center;padding-top:19px;border-radius:10px;}
+	.banner3{width:315px;height:288px;background:#fff;margin-top:14px;margin-left:15px;border-top:1px dashed #999999;}
+	.banner3 input{width:199px;height:30px;border:1px solid #ccc;margin-bottom:11px;}
+	.banner3 form{text-align:left:}
+	.banner3 img{width:100px;height:38px;}
+	.banner3 td{font-size:2px;}
+	#nav{width:1170px;height:153px;background:#fff;}
+	#nav ul li{width:233px;height:118px;float:left;list-style:none;border-right:1px dashed #d5d5d5;margin-top:21px;}
+	#nav ul li a{text-decoration:none;}
+	#news{width:1170px;height:301px;background:#eee;}
+	#news ul li{width:270px;height:250px;list-style:none;float:left;margin-top:24px;margin-left:30px;}
+	#news ul li a{text-decoration:none;}
+	#news .news1{margin-left:0px;}
+	#about{width:1170px;height:463px;background:#fff;}
+	#about div{float:left;}
+	.about1{width:1170px;height:49px;background:#eee;margin-top:14px;font-size:bold 40px "黑体";line-height:49px;}
+	.about2{width:779px;height:363px;background:#fff;padding-top:37px;padding-left:34px;}
+	.about2 ul{margin-top:23px;}
+	.about2 ul li{font-size:14px;margin-bottom:20px;list-style-image:url("../images/flag.bmp");list-style-position:inside;}
+	.about2 ul li a{text-decoration:none;color:#000;}
+	.about3{width:309px;height:363px;background:#fff;padding-top:37px;padding-left:48px;}
+	.about3 p b{font-size:24px;color:#ff8c00;}
+	#about .about3 .about31{width:334px;height:28px;background:#eee;margin-left:-48px;margin-top:20px;font-size:12px;line-height:28px;padding-left:23px;}
+	.about3 img{margin-left:-48px;}
+	#foot{width:1170px;height:150px;background:#fff;border-top:1px solid #d9d9d9;}
+	#foot ul li{list-style:none;float:left;width:414px;height:60px;border-right:1px solid #a5a5a5;margin-top:42px;}
+	#foot ul li img{margin-top:-12px;margin-left:116px;}
+	#logo,#banner,#nav,#news,#about,#foot{margin:0px auto;}
